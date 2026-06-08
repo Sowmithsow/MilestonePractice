@@ -132,12 +132,12 @@ public class Mainclass {
     @AfterTest
     public void afterTest() {
 
-		/*
-		 * if (driver != null) {
-		 * 
-		 * driver.quit(); }
-		 * 
-		 * System.out.println("Testing Completed Successfully");
-		 */
+		
+		 if (driver != null) {
+		 
+		  driver.quit(); }
+		  
+		  System.out.println("Testing Completed Successfully");
+		 
     }
 }
