@@ -5,12 +5,9 @@
     <classes>
       <class name="Project.Mainclass">
         <methods>
-          <include name="ProductDetails"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="registration" invocation-numbers="0"/>
-          <include name="checkout"/>
-          <include name="Deletecart"/>
         </methods>
       </class> <!-- Project.Mainclass -->
     </classes>

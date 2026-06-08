@@ -21,7 +21,7 @@ public class Mainclass {
 
         return new Object[][] {
                 { "Sowmithran", "V",
-                        "ishankishanselenium2304@gmail.com",
+                        "suryvansi23@gmail.com",
                         "Sowmithran@24",
                         "Sowmithran@24" }
         };
@@ -71,6 +71,8 @@ public class Mainclass {
                 email,
                 password,
                 confirmPassword);
+        
+        p.logout();
     }
 
     @Test(priority = 2, dataProvider = "Login", groups = "Smoke")
@@ -130,11 +132,12 @@ public class Mainclass {
     @AfterTest
     public void afterTest() {
 
-        if (driver != null) {
-
-            driver.quit();
-        }
-
-        System.out.println("Testing Completed Successfully");
+		/*
+		 * if (driver != null) {
+		 * 
+		 * driver.quit(); }
+		 * 
+		 * System.out.println("Testing Completed Successfully");
+		 */
     }
 }
